@@ -48,5 +48,7 @@ fi
 
 chown -R ocspd:ocspd /usr/local/ocspd/
 
+sleep 1
+
 /usr/local/ocspd/sbin/ocspd -stdout -c /usr/local/ocspd/etc/ocspd/ocspd.xml
 
