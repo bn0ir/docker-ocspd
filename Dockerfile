@@ -27,7 +27,7 @@ RUN wget http://downloads.sourceforge.net/project/openca/libpki/releases/v0.8.8/
 	./configure && \
 	make && \
 	make install && \
-	ln -s /usr/lib64/libpki.so.88 /usr/lib/libpki.so.88
+	ln -s /usr/lib64/libpki.so.88 /usr/lib/libpki.so.88 && \
 	cd ../ && \
 	rm -rf libpki-0.8.8
 
